@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+ body {
+    background-color: blue;
+    height: 400vh;
+ }
+
+ .progressBar {
+    height:2vh;
+    width: 0%;
+    background-color: pink;
+    position: fixed;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    transition: width ease-in 0.3s;
+ }
